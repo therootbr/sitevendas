@@ -10,7 +10,7 @@ def index():
 @app.route('/produtos')
 def produtos():
   arquivo = open("static/produtos.json")
-  produtos = json.load(arquivo)
-  return render_template('produtos.html', produtos=produtos)
+  produto = json.load(arquivo)
+  return render_template('produtos.html', produto=produto)
 
 app.run(host='0.0.0.0', port=81)
