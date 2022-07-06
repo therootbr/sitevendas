@@ -1,0 +1,47 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css & css-->
+      <link type="text/css" rel="stylesheet" href="/static/css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      
+      <!-- Titulo da Página -->
+      <title>
+        Work's Design - 
+        {% block titulo %}
+        {% endblock %}
+      </title>
+    </head>
+
+      <!-- Navbar -->
+      <div class="navbar-fixed">
+        <nav class="--gray-color-nav--">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo">SiteVendas</a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="/produtos">Produtos</a></li>
+                <li><a href="badges.html">Clientes</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+    <body>
+
+        <main>
+           {% block conteudo %}
+           {% endblock %}
+        </main>
+
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="/static/js/materialize.min.js"></script>
+    </body>
+  </html>

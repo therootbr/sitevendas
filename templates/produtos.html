@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+<!-- Complemento do nome do título -->
+{% block titulo %}
+  Produtos
+{% endblock %}
+
+<!-- CONTEÚDO CENTRAl -->
+{% block conteudo %}
+
+{% for p in produtos %}
+  <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="/static/assets/{{p.imagem}}">
+          <span class="card-title">{{p.nome}}</span>
+        </div>
+        <div class="card-content">
+          <p>{{p.descricao}}</p>
+          {% for tamanho in p.preco %}
+          <p>{{tamanho.upper()}}: R$ {{p.preco.get(tamanho)}}</p>
+          {% endfor %}
+        </div>
+        <div class="card-action">
+          <a href="#">COMPRAR</a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
+{% endblock %}

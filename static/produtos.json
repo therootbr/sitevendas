@@ -1,0 +1,49 @@
+{"nome": "Boneca da barbie",
+   "imagem": "BARBIEBONECA.jpg",
+   "descricao": "Boneca barbie mais linda do que nunca",
+   "preco": {
+     "normal": 45.00,
+     "promocao": 29.90
+   }
+  },
+  {"nome": "KinderOvo",
+   "imagem": "KINDEROVO.jpg",
+   "descricao": "KinderOvo com surpresa na conta bancaria",
+   "preco": {
+     "normal": 1200.00,
+     "promocao": 600.00
+   }
+  },
+  {"nome": "Carro hot wheels",
+  "descricao": "Camaro, Uno Mille com escadinha, Ferrari",
+   "imagem": "HOTWHEELS.jpg",
+   "preco": {
+     "normal": 65.00,
+     "promocao": 70.00
+   }
+  },
+  {"nome": "Aspirador de pó",
+  "descricao": "Aspirador de pó vertical Electrolux",
+   "imagem": "ASPIRADORDEPO.jpg",
+   "preco": {
+     "normal": 45.00,
+     "promocao": 35.00
+   }
+  },
+  {"nome": "Pendrive 1TB",
+   "imagem": "PENDRIVE1TB.jpg",
+   "descricao": "Pendrive HP 1TB Ultra rápido",
+   "preco": {
+     "normal": 50.00,
+     "promocao": 22.00
+   }
+  },
+  {"nome": "HD 320gb",
+   "imagem": "SEAGATE320GB.jpg",
+   "descricao": "HD 320gb Seagate",
+   "preco": {
+     "normal": 50.00,
+     "promocao": 25.00
+   }
+  }
+]
