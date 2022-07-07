@@ -1,0 +1,26 @@
+[
+  {"nome": "Jessica Viana",
+   "imagem": "PESSOA02.jpg",
+   "descricao": "Boneca barbie mais linda do que nunca"
+  },
+  {"nome": "Riko Perehon de Hahaha de Bala Icekiss",
+   "imagem": "PESSOA06.jpg",
+   "descricao": "Influencer famoso"
+  },
+  {"nome": "Marcus Levi",
+  "descricao": "Parente de tia",
+   "imagem": "PESSOA01.jpg"
+  },
+  {"nome": "Pedro Antunes",
+  "descricao": "Tia Rondha",
+   "imagem": "PESSOA05.jpg"
+  },
+  {"nome": "Joalin Rhabey",
+   "imagem": "PESSOASHEIK03.jpg",
+   "descricao": "Irmão do sheik Voalin"
+  },
+  {"nome": "Voalin Rabha",
+   "imagem": "PESSOASHEIK04.jpg",
+   "descricao": "Irmão do sheik Joalin"
+  }
+]

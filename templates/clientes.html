@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+<!-- Complemento do nome do título -->
+{% block titulo %}
+  Clientes
+{% endblock %}
+
+<!-- CONTEÚDO CENTRAl -->
+{% block conteudo %}
+
+<div class="container">
+
+  <h2>Clientes:</h2>
+{% for c in clientes %}
+  <div class="row">
+      <div class="col s12 m6 offset-m2 l6 offset-l3">
+        <div class="card-panel grey lighten-5 z-depth-1">
+          <div class="row valign-wrapper">
+            <div class="col s2">
+              <img src="/static/assets/{{c.imagem}}" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+                Nome: {{c.nome}}
+                <br/>
+                Descrição: {{c.descricao}}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}
